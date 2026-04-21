@@ -3,74 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <title>Calm</title>
+
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
   <header class="header">
-    <div class="container header__row">
-      <div class="brand">
-        <img src="img/logo.png" alt="logo" class="logo-img">
-      </div>
+    <div class="header__container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <img src="img/logo.png" alt="Calm logo" class="brand__logo">
+        </div>
 
-      <div class="menu">
-        <span>Home</span>
-        <span>Archive</span>
-        <span>About</span>
+        <nav class="nav">
+          <a href="#" class="nav__item nav__item--home">Home</a>
+          <a href="#" class="nav__item nav__item--archive">Archive</a>
+          <a href="#" class="nav__item nav__item--about">About</a>
+        </nav>
       </div>
     </div>
   </header>
 
   <section class="hero">
-    <div class="hero__inner">
-      <div class="brand hero__brand">
-        <img src="img/logo.png" alt="logo" class="logo-img">
+    <div class="hero__container">
+      <div class="hero__logo-box">
+        <img src="img/logo.png" alt="Calm logo" class="hero__logo">
       </div>
 
       <h1 class="hero__title">
-        Welcome to Calm – a lifestyle blog about minimalism, technology, design & travel.
+        Welcome to Calm - a lifestyle blog about minimalism, technology, design & travel.
       </h1>
     </div>
   </section>
 
-  <section class="featured">
-  <div class="featured__inner">
-    <div class="featured__left card">
-      <img src="img/iceland.png" alt="Iceland" class="card__image">
+  <section class="posts">
+  <div class="posts__container">
 
-      <div class="card__content">
-        <div class="card__category">TRAVEL</div>
-        <h2 class="card__title">Travel spots in Iceland</h2>
-        <p class="card__text">
-            Delectus sint nisi ut recusandae molestiae. Qui iure accusantium esse temporibus et. Aut atque vel labore officiis a dolor et. Molestiae dolor quo eius. Perferendis error eveniet sit quia occaecati excepturi nisi prod.
+    <div class="card-big">
+      <img src="img/iceland.png" alt="Travel spots in Iceland" class="card-big__image">
+
+      <div class="card-big__content">
+        <div class="card-big__category">TRAVEL</div>
+        <h2 class="card-big__title">Travel spots in Iceland</h2>
+        <p class="card-big__text">
+          Delectus sint nisi ut recusandae molestiae. Qui iure accusantium esse temporibus et. Aut atque vel labore officiis a dolor et. Molestiae dolor quo eius. Perferendis error eveniet sit quia occaecati excepturi nisi prod.
         </p>
-        <div class="card__date">November 24, 2021</div>
+        <div class="card-big__date">November 24, 2021</div>
       </div>
     </div>
 
-    <div class="featured__right">
-      <div class="small-card">
-        <img src="img/climbing.png" alt="Climbing" class="small-card__image">
+    <div class="posts__right-column">
 
-        <div class="small-card__content">
-          <div class="small-card__category">EXERCISE</div>
-          <h3 class="small-card__title">Climbing as exercise</h3>
-          <div class="small-card__date">November 24, 2021</div>
+      <div class="card-small">
+        <img src="img/climbing.png" class="card-small__image">
+
+        <div class="card-small__content">
+          <div class="card-small__category">EXERCISE</div>
+          <h3 class="card-small__title">Climbing as exercise</h3>
+          <div class="card-small__date">November 24, 2021</div>
         </div>
       </div>
 
-      <div class="small-card">
-        <img src="img/camera.png" alt="Camera" class="small-card__image">
+      <div class="card-small">
+        <img src="img/camera.png" class="card-small__image">
 
-        <div class="small-card__content">
-          <div class="small-card__category">TECH</div>
-          <h3 class="small-card__title">The move to mirrorless cameras</h3>
-          <div class="small-card__date">November 24, 2021</div>
+        <div class="card-small__content">
+          <div class="card-small__category">TECH</div>
+          <h3 class="card-small__title">The move to mirrorless cameras</h3>
+          <div class="card-small__date">November 24, 2021</div>
+        </div>
+      </div>
+
+    </div>
+
+        <div class="posts__row-top">
+      <div class="card-medium">
+        <img src="img/drone.png" alt="" class="card-medium__image">
+        <div class="card-medium__content">
+         <div class="card-medium__category">TECH</div>
+         <h3 class="card-medium__title">Drone photography on a space budget</h3>
+         <div class="card-medium__date">November 24, 2021</div>
+       </div>
+      </div>
+
+      <div class="card-medium">
+        <img src="img/coffee.png" alt="" class="card-medium__image">
+        <div class="card-medium__content">
+          <div class="card-medium__category">TUTORIAL</div>
+          <h3 class="card-medium__title">How to make the perfect cup of coffee</h3>
+          <div class="card-medium__date">November 24, 2021</div>
         </div>
       </div>
     </div>
+
+    <div class="posts__row-bottom">
+      <div class="card-review">
+        <img src="img/pen.png" alt="" class="card-review__image">
+        <div class="card-review__content">
+          <div class="card-review__category">REVIEW</div>
+          <h3 class="card-review__title">The best pen I've ever used</h3>
+          <div class="card-review__date">November 24, 2021</div>
+        </div>
+      </div>
+
+      <div class="card-review">
+        <img src="img/backpack.png" alt="" class="card-review__image">
+        <div class="card-review__content">
+          <div class="card-review__category">REVIEW</div>
+          <h3 class="card-review__title">Tech-focused travel backpack</h3>
+          <div class="card-review__date">November 24, 2021</div>
+        </div>
+      </div>
+
+      <div class="card-review">
+        <img src="img/desk.png" alt="" class="card-review__image">
+        <div class="card-review__content">
+          <div class="card-review__category">REVIEW</div>
+          <h3 class="card-review__title">Desk accessories to keep you organized</h3>
+          <div class="card-review__date">November 24, 2021</div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
+
 </body>
 </html>
+
+
