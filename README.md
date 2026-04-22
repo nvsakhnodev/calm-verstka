@@ -1,29 +1,37 @@
-# Calm Verstka Practice
+# 🌿 Calm Layout Practice
 
-Учебный проект по вёрстке, выполненный по [макету](https://verstaem.online/projects/calm/) 
+Учебный проект по вёрстке лендинга на основе макета [Calm](https://verstaem.online/projects/calm/).
+
+## Preview
+
+<img width="553" height="847" alt="изображение" src="https://github.com/user-attachments/assets/ad3b218a-93da-47ee-acab-d4accff8ce71" />
 
 ---
 
-## 📸 Preview
+## О проекте
 
-<img width="1224" height="932" alt="изображение" src="https://github.com/user-attachments/assets/5fe1b735-4e57-4ce8-b921-a84d34304e2a" />
+В этом проекте реализована вёрстка минималистичного блога с использованием HTML и SCSS.  
+Основная цель — отработка навыков работы с layout (Flexbox, Grid), структурой проекта и точным повторением макета.
 
 ---
 
 ## Что реализовано
 
-- Header (логотип + меню)
-- Hero-блок (крупный заголовок)
-- Секция с карточками (Grid)
-- Работа с изображениями
-- Базовая структура страницы
+- Header с навигацией
+- Hero-блок с заголовком
+- Секция постов (Grid + карточки)
+- Блок подписки (Subscribe)
+- Список статей
+- Footer
+- Центрирование контента (container)
+- Pixel-perfect верстка по макету
 
 ---
 
-## Структура проекта
+## Технологии
 
-```text
-calm-layout-practice/
-├── index.html
-├── style.css
-└── img/
+- HTML5
+- SCSS / CSS3
+- Flexbox
+- CSS Grid
+- BEM методология
