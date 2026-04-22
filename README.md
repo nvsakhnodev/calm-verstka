@@ -4,7 +4,7 @@
 
 ## Preview
 
-[Ссылка на демо-версию сайта](nvsakhnodev.github.io/calm-verstka/) https://nvsakhno.github.io/calm-verstka/
+[Ссылка на демо-версию сайта](https://nvsakhno.github.io/calm-verstka/) 
 
 ---
 
