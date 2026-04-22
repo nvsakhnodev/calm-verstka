@@ -35,3 +35,6 @@
 - Flexbox
 - CSS Grid
 - BEM методология
+
+## Автор
+GitHub: https://github.com/nvsakhnodev
