@@ -4,7 +4,7 @@
 
 ## Preview
 
-<img width="718" height="833" alt="изображение" src="https://github.com/user-attachments/assets/9618e08c-216f-480b-8cec-046d4148b2f0" />
+<img width="746" height="838" alt="Снимок экрана 2026-04-22 143615" src="https://github.com/user-attachments/assets/918a6154-8dc6-412a-9d00-5bd0a8054f36" />
 
 ---
 
