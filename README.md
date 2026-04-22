@@ -4,7 +4,7 @@
 
 ## Preview
 
-<img width="746" height="838" alt="Снимок экрана 2026-04-22 143615" src="https://github.com/user-attachments/assets/918a6154-8dc6-412a-9d00-5bd0a8054f36" />
+[Ссылка на демо-версию сайта](nvsakhnodev.github.io/calm-verstka/) 
 
 ---
 
