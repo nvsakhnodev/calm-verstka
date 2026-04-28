@@ -6,6 +6,8 @@
 
 [Ссылка на демо-версию сайта](https://nvsakhnodev.github.io/calm-verstka/) 
 
+<img width="1232" height="975" alt="изображение" src="https://github.com/user-attachments/assets/2896b3e0-51e7-4dce-b7ce-4c4275d22bea" />
+
 ---
 
 ## О проекте
